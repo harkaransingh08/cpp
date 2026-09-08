@@ -1,0 +1,22 @@
+// DO-WHILE LOOP
+
+
+// syntax
+// do
+// {
+//     /* code */
+// } while (condition);
+
+
+# include <iostream>
+using namespace std;
+int main(){
+    int i = 10 ;
+    do
+    {
+        cout<<i<<endl;
+        i--;
+    } while (i<=5);
+    
+    return 0 ;
+}

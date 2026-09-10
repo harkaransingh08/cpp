@@ -103,10 +103,10 @@
 //     public:
 //     string Name ;
 //     int RollNO;
-//     int Marks;
+//     int Unit;
     
 //     void Print(){
-//         cout<<"Name  :"<<Name<<"ROLL  :"<<RollNO<<"Marks  :"<<Marks<<endl;
+//         cout<<"Name  :"<<Name<<"ROLL  :"<<RollNO<<"Unit  :"<<Unit<<endl;
 //     }
 // };
 // int main(){
@@ -114,11 +114,11 @@
 
 //     s1.Name = "Harkaran";
 //     s1.RollNO = 9;
-//     s1.Marks = 90;
+//     s1.Unit = 90;
 
 //     s2.Name = "honey";
 //     s2.RollNO = 6;
-//     s2.Marks = 80;
+//     s2.Unit = 80;
 
 //     s1.Print();
 //     s2.Print();
@@ -369,9 +369,210 @@
 
 
 
+// # include <iostream>
+// using namespace std;
+// int main(){
+//     int Num ;
+//     cout<<"ENTER THE NUMBER "<<endl;
+//     cin>>Num;
+
+//     if (Num%3 == 0 && Num%5 == 0)
+//     {
+//         cout<<"THE NUMBER IS DIVISIBLE BY 3 AND 5"<<endl;
+//     }
+//     else if (Num%3 == 0 && Num%5 != 0)
+//     {
+//         cout<<"THE NUMBER IS ONLY DIVISIBLE BY 3"<<endl;
+//     }
+//     else if (Num%5 == 0 && Num%3 != 0)
+//     {
+//         cout<<"THE NUMBER IS ONLY DIVISIBLE BY 5"<<endl;
+//     }
+//     else{
+//         cout<<"DIVISIBLE BY NEITHER"<<endl;
+//     }
+    
+    
+//     return 0 ;
+// }
+
+
+
+
+// # include <iostream>
+// using namespace std;
+// int main(){
+//     int num1,num2,num3;
+//     cout<<"ENTER THE NUMBER 1";
+//     cin>>num1;
+//     cout<<"ENTER THE NUMBER 2";
+//     cin>>num2;
+//     cout<<"ENTER THE NUMBER 3";
+//     cin>>num3;
+
+//     if ( num1+num2>num3 && num2+num3>num1 && num1+num3>num2 )
+//     {
+//         if (num1 == num2 && num1 == num3 )
+//         {
+//              cout<<"THIS IS A EQ TRIANGLE"<<endl;
+//         }
+//         else if (num1 == num2 && num1 != num3)
+//         {
+//             cout<<"THIS IS A ISOSCELES"<<endl;
+//         }
+//         else{
+//             cout<<"THIS IS A SCALENE"<<endl;
+//         }
+        
+        
+//     }
+//     else{
+//         cout<<"NOT A TRIANGLE "<<endl;
+//     }
+    
+//     return 0 ;
+// }
+
+
+
+
+// # include <iostream>
+// using namespace std;
+// int main(){
+//     float Unit;
+//     cout<<"ENTER YOUR Unit"<<endl;
+//     cin>>Unit;
+
+//     if (Unit>=0 && Unit<= 100)
+//     {
+//         if (Unit>= 90 && Unit<= 100)
+//         {
+//             cout<<"GRADE A"<<endl;
+//         }
+        
+//         else if (Unit>= 80 && Unit<= 89)
+//         {
+//             cout<<"GRADE B"<<endl;
+//         }
+        
+//         else if (Unit>= 70 && Unit<= 79)
+//         {
+//             cout<<"GRADE C"<<endl;
+//         }
+        
+//         else if (Unit>= 60 && Unit<= 69)
+//         {
+//             cout<<"GRADE D"<<endl;
+//         }
+        
+//         else if (Unit>= 50 && Unit<= 59)
+//         {
+//             cout<<"GRADE E"<<endl;
+//         }
+        
+//         else if (Unit>= 0 && Unit<= 49)
+//         {
+//             cout<<"GRADE F"<<endl;
+//         }
+//         else{
+//             cout<<"INVALID Unit"<<endl;
+//         }
+        
+//     }
+//     else cout<<"INVALID Unit"<<endl;
+    
+//     return 0 ;
+// }
+
+
+
+
+// # include <iostream>
+// using namespace std;
+// int main(){
+//     float Unit;
+//     cout<<"ENTER YOUR Units"<<endl;
+//     cin>>Unit;
+
+//     if (Unit>=0 )
+//     {
+//         if (Unit>= 5 && Unit<= 100)
+//         {
+//             cout<<"YOUR ELECTRICITY BILL IS :"<<Unit*5<<endl;
+//         }
+        
+//         else if (Unit>= 101 && Unit<= 200)
+//         {
+//             cout<<"YOUR ELECTRICITY BILL IS :"<< 100*5 + (Unit-100)*7 <<endl;
+//         }
+        
+//         else if (Unit>= 201 && Unit<= 300)
+//         {
+//             cout<<"YOUR ELECTRICITY BILL IS :"<< 100*5 + 100*7 + (Unit-200)*10 <<endl;
+//         }
+
+//         else if (Unit> 300)
+//         {
+//             cout<<"YOUR ELECTRICITY BILL IS :"<<100*5 + 100*7 + 100*10 + (Unit-300)*15<<endl;
+//         }
+//         else{
+//             cout<<"INVALID Unit"<<endl;
+//         }
+        
+//     }
+//     else cout<<"INVALID Unit"<<endl;
+    
+//     return 0 ;
+// }
+
+
 # include <iostream>
 using namespace std;
 int main(){
+    int Unit;
+    cout<<"ENTER YOUR Number"<<endl;
+    cin>>Unit;
+
+    if (Unit>0)
+    {
+        if (Unit%2==0 && Unit%5 != 0)
+        {
+            cout<<"YESSS IT IS A POSITIVE ,EVEN, NUMBER"<<endl;
+        }
+        else if (Unit%2==0 && Unit%5==0)
+        {
+            cout<<"YESSS IT IS A POSITIVE ,EVEN,AND IT IS DIVISIBLE BY 5 "<<endl;
+        }
+        else if(Unit%2 != 0 && Unit%5 == 0){
+            cout<<"IT IS A ODD NUMBER AND DIVISIBLE BY 5"<<endl;
+        }
+        else if(Unit%2 != 0){
+            cout<<"IT IS A ODD NUMBER"<<endl;
+        }
+        
+    }
+    
+    else if (Unit<0)
+    {
+        if (Unit%2==0 && Unit%5 != 0)
+        {
+            cout<<"YESSS IT IS A NEGATIVE ,EVEN, NUMBER"<<endl;
+        }
+        else if (Unit%2==0 && Unit%5==0)
+        {
+            cout<<"YESSS IT IS A NEGATIVE , EVEN,AND IT IS DIVISIBLE BY 5 "<<endl;
+        }
+        else if(Unit%2 != 0 && Unit%5 == 0){
+            cout<<"IT IS A ODD NUMBER AND DIVISIBLE BY 5"<<endl;
+        }
+        else if(Unit%2 != 0){
+            cout<<"IT IS A ODD NUMBER"<<endl;
+        }
+        
+    }
+    else{
+        cout<<"PLEASE ENTER A CORRECT NUMBER"<<endl;
+    }
     
     return 0 ;
 }

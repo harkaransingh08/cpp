@@ -526,53 +526,157 @@
 // }
 
 
-# include <iostream>
-using namespace std;
-int main(){
-    int Unit;
-    cout<<"ENTER YOUR Number"<<endl;
-    cin>>Unit;
+// # include <iostream>
+// using namespace std;
+// int main(){
+//     int Unit;
+//     cout<<"ENTER YOUR Number"<<endl;
+//     cin>>Unit;
 
-    if (Unit>0)
-    {
-        if (Unit%2==0 && Unit%5 != 0)
-        {
-            cout<<"YESSS IT IS A POSITIVE ,EVEN, NUMBER"<<endl;
-        }
-        else if (Unit%2==0 && Unit%5==0)
-        {
-            cout<<"YESSS IT IS A POSITIVE ,EVEN,AND IT IS DIVISIBLE BY 5 "<<endl;
-        }
-        else if(Unit%2 != 0 && Unit%5 == 0){
-            cout<<"IT IS A ODD NUMBER AND DIVISIBLE BY 5"<<endl;
-        }
-        else if(Unit%2 != 0){
-            cout<<"IT IS A ODD NUMBER"<<endl;
-        }
+//     if (Unit>0)
+//     {
+//         if (Unit%2==0 && Unit%5 != 0)
+//         {
+//             cout<<"YESSS IT IS A POSITIVE ,EVEN, NUMBER"<<endl;
+//         }
+//         else if (Unit%2==0 && Unit%5==0)
+//         {
+//             cout<<"YESSS IT IS A POSITIVE ,EVEN,AND IT IS DIVISIBLE BY 5 "<<endl;
+//         }
+//         else if(Unit%2 != 0 && Unit%5 == 0){
+//             cout<<"IT IS A ODD NUMBER AND DIVISIBLE BY 5"<<endl;
+//         }
+//         else if(Unit%2 != 0){
+//             cout<<"IT IS A ODD NUMBER"<<endl;
+//         }
         
-    }
+//     }
     
-    else if (Unit<0)
-    {
-        if (Unit%2==0 && Unit%5 != 0)
-        {
-            cout<<"YESSS IT IS A NEGATIVE ,EVEN, NUMBER"<<endl;
-        }
-        else if (Unit%2==0 && Unit%5==0)
-        {
-            cout<<"YESSS IT IS A NEGATIVE , EVEN,AND IT IS DIVISIBLE BY 5 "<<endl;
-        }
-        else if(Unit%2 != 0 && Unit%5 == 0){
-            cout<<"IT IS A ODD NUMBER AND DIVISIBLE BY 5"<<endl;
-        }
-        else if(Unit%2 != 0){
-            cout<<"IT IS A ODD NUMBER"<<endl;
-        }
+//     else if (Unit<0)
+//     {
+//         if (Unit%2==0 && Unit%5 != 0)
+//         {
+//             cout<<"YESSS IT IS A NEGATIVE ,EVEN, NUMBER"<<endl;
+//         }
+//         else if (Unit%2==0 && Unit%5==0)
+//         {
+//             cout<<"YESSS IT IS A NEGATIVE , EVEN,AND IT IS DIVISIBLE BY 5 "<<endl;
+//         }
+//         else if(Unit%2 != 0 && Unit%5 == 0){
+//             cout<<"IT IS A ODD NUMBER AND DIVISIBLE BY 5"<<endl;
+//         }
+//         else if(Unit%2 != 0){
+//             cout<<"IT IS A ODD NUMBER"<<endl;
+//         }
         
-    }
-    else{
-        cout<<"PLEASE ENTER A CORRECT NUMBER"<<endl;
-    }
+//     }
+//     else{
+//         cout<<"ZERO"<<endl;
+//     }
     
-    return 0 ;
-}
+//     return 0 ;
+// }
+
+
+
+// # include <iostream>
+// using namespace std;
+// int main(){
+//     int Num ;
+//     cout<<"ENTER THE NUMBER"<<endl;
+//     cin>>Num;
+//     int Bag = 0;
+//     for (int i = 0; i < Num; i++)
+//     {
+//         Bag = Num%10;
+//         cout<<Bag<<endl;
+//     }
+    
+//     return 0 ;
+// }
+
+
+
+
+
+
+
+
+
+
+
+
+// #include <iostream>
+// using namespace std;
+
+// void modify(int a, int &b) {
+//     a = a + 10;
+//     b = b + 10;
+// }
+
+// int main() {
+//     int x = 5, y = 5;
+//     modify(x, y);
+//     cout << x << " " << y << endl;
+//     return 0;
+// }
+
+
+
+
+
+// #include <iostream>
+// using namespace std;
+
+// int main() {
+//     int arr[] = {3, 7, 2, 9, 5};
+//     int result = arr[0];
+
+//     for (int i = 1; i < 5; i++) {
+//         if (arr[i] > result) {
+//             result = arr[i];
+//         }
+//     }
+
+//     cout << result << endl;
+//     return 0;
+// }
+
+
+
+
+
+// #include <iostream>
+// using namespace std;
+
+// int main() {
+//     int a = 42;
+//     int *p = &a;
+//     int &r = a;
+
+//     *p = 100;
+//     r = r + 5;
+
+//     cout << a << endl;
+//     return 0;
+// }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

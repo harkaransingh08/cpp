@@ -83,6 +83,17 @@
 
 
 
+// # include <iostream>
+// using namespace std;
+// int main(){
+//     int Temp;
+//     cout<<"ENTER THE TEMPERATURE"<<endl;
+//     cin>>Temp;
+
+//     double Fahrenheit = (Temp*9.0/5+32);
+//     cout<<"THE CONVERTED TEMP IS: "<<Fahrenheit<<endl;
+//     return 0 ;
+// }
 
 
 

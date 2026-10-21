@@ -95,6 +95,38 @@
 //     return 0 ;
 // }
 
+# include <iostream>
+using namespace std;
+int main(){
+    int Num ;
+    cout<<"ENTER NUMBER"<<endl;
+    cin>>Num;
+
+    if (Num & 1)
+    {
+        cout<<"ODD"<<endl;
+    }
+    else{
+        cout<<"EVEN"<<endl;
+    }
+    if (Num>0)
+    {
+        cout<<"POSITIVE"<<endl;
+
+    }
+    else if (Num<0)
+    {
+        cout<<"Negative"<<endl;
+    }
+    else{
+        cout<<"ZERO"<<endl;
+    }
+    return 0 ;
+}
+
+
+
+
 
 
 

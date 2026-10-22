@@ -128,6 +128,183 @@
 
 
 
+// # include <iostream>
+// using namespace std;
+// int main(){
+//     int x = 5;
+//     if (x = 0)
+//     {
+//         cout<<x<<endl;
+//     }
+    
+//     return 0 ;
+// }
+
+
+
+// # include <iostream>
+// using namespace std;
+// int main(){
+//     int age = 20;
+//     bool hasID = true;
+
+//     if (age>=18)
+//     {
+//         if (hasID)
+//         {
+//             cout<<"ENTRY ALLOWED";
+//         }else{
+//             cout<<"BRING YOUR ID"<<endl;
+//         }
+//     }
+//     else{
+//         cout<<"YOUNG"<<endl;
+//     }
+    
+//     return 0 ;
+// }
+
+
+
+// # include <iostream>
+// using namespace std;
+// int main(){
+//     int day = 3;
+
+//     switch (day)
+//     {
+//     case 1:
+//         cout<<"Monday"<<endl;
+//         break;
+//     case 2:
+//         cout<<"Tuesday"<<endl;
+//         break;
+//     case 3:
+//         cout<<"Wednesday"<<endl;
+//         break;
+//     case 4:
+//         cout<<"Thrusday"<<endl;
+//         break;
+//     case 5:
+//         cout<<"Friday"<<endl;
+//         break;
+    
+//     default:
+//         break;
+//     }
+//     return 0 ;
+// }
+
+
+
+// # include <iostream>
+// using namespace std;
+// int main(){
+//     char a ;
+//     cout<<"ENTER THE CHARACTER"<<endl;
+//     cin>>a;
+
+//     if (a>='A' && a<='Z' || a>='a' && a<='z')
+//     {
+//         if (a == 'a' || a=='e' || a == 'i' || a == 'o' || a == 'u' || a == 'A' || a=='E' || a == 'I' || a == 'O' || a == 'U')   
+//         {
+//             cout<<"VOVEl"<<endl;
+//         }
+//         else{
+//             cout<<"Consonant"<<endl;
+//         }
+//     }
+//     else{
+//         cout<<"Not a letter"<<endl;
+//     }
+    
+//     return 0 ;
+// }
+
+
+
+// # include <iostream>
+// using namespace std;
+// int main(){
+//     double a , b;
+//     char Digit;
+//     cout<<"enter number1"<<endl;
+//     cin>>a;
+//     cout<<"enter number2"<<endl;
+//     cin>>b;
+//     cout<<"ENTER THE OPERATOR"<<endl;
+//     cin>>Digit;
+
+//     switch (Digit)
+//     {
+//     case '+' :
+//         cout<<"The total Sum: " <<(double)a+b<<endl;
+//         break;
+//     case '-' :
+//         cout<<"The total Difference: " <<(double)a-b<<endl;
+//         break;
+//     case '*' :
+//         cout<<"The Multiplication: " <<(double)a*b<<endl;
+//         break;
+//     case '/' :
+//         cout<<"The Division: " <<(double)a/b<<endl;
+//         break;
+    
+//     default:
+//         break;
+//     }
+
+//     return 0 ;
+// }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

@@ -529,21 +529,178 @@
 
 
 
+// # include <iostream>
+// using namespace std;
+// int main(){
+//     int n = 4;
+//     for (int i = 1; i <= n; i++)
+//     {
+//         for (int j = 1 ; j <= i; j++)
+//         {
+//             cout<<"* ";
+//         }
+//         cout<<endl;
+//     }
+    
+//     return 0 ;
+// }
+
+
+
+
+
+// # include <iostream>
+// using namespace std;
+// int main(){
+//     int n = 4;
+//     for (int i = 1; i <= n; i++)
+//     {
+//         for (int j = 1 ; j <= i; j++)
+//         {
+//             cout<<i << " ";
+//         }
+//         cout<<endl;
+//     }
+    
+//     return 0 ;
+// }
+
+
+
+
+
+
+// # include <iostream>
+// using namespace std;
+// int main(){
+//     int n = 4;
+//     for (int i = 0; i <= n; i++)
+//     {
+//         for (int j = 1; j <=i; j++)
+//         {
+//             cout<<j<<" ";
+//         }
+//         cout<<endl;
+//     }
+    
+//     return 0 ;
+// }
+
+
+
+
+
+
+
+
+
+
+// # include <iostream>
+// using namespace std;
+// int main(){
+//     int n = 4;
+//     for (int i = 0; i <= n; i++)
+//     {
+//         for (int j = i; j>=1; j--)
+//         {
+//             cout<<j;
+//         }
+//         cout<<endl;
+//     }
+    
+//     return 0 ;
+// }
+
+
+
+
+// # include <iostream>
+// using namespace std;
+// int main(){
+//     int n = 4;
+//     int bag = 1;
+//     for (int i = 0; i <= n; i++)
+//     {
+//         for (int j = 1; j <= i; j++)
+//         {
+//             cout<<bag<<" ";
+//             bag++;
+//         }
+//         cout<<endl;
+//     }
+    
+//     return 0 ;
+// }
+
+
+
+
+// # include <iostream>
+// using namespace std;
+// int main(){
+//     int n = 4;
+//     for (int i = 1; i <= n; i++)
+//     {
+//         for (int j = i; j>=1; j--)
+//         {
+//             cout<<" ";
+//         }
+
+//         for (int k = 0; k <= n-i; k++)
+//         {
+//             cout<<i<<"";
+//         }
+        
+//         cout<<endl;
+//     }
+    
+//     return 0 ;
+// }
+
+
+
+// # include <iostream>
+// using namespace std;
+// int main(){
+//     int n = 4;
+//     for (int i = 1; i <= n; i++)
+//     {
+//         for (int j = n; j >= i; j--)
+//         {
+//             cout<<" ";
+//         }
+//         for (int k = 1; k <= i; k++)
+//         {
+//             cout<<k;
+//         }
+//         for (int l = i-1; l>=1; l--)
+//         {
+//             cout<<l;
+//         }
+        
+        
+//         cout<<endl;
+//     }
+    
+//     return 0 ;
+// }   
+
+
+
 # include <iostream>
 using namespace std;
 int main(){
-    int n = 4;
-    for (int i = 1; i <= n; i++)
-    {
-        for (int j = 1 ; j <= i; j++)
-        {
-            cout<<"* ";
-        }
-        cout<<endl;
-    }
     
     return 0 ;
 }
+
+
+
+
+
+
+
+
 
 
 

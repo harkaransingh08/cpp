@@ -463,13 +463,79 @@
 
 
 
+// # include <iostream>
+// using namespace std;
+// int main(){
+//     int n = 4;
+//     for (int i = 1; i <= 3; i++)
+//     {
+//         for (int j = 'A'; j <= 'Z'; j++)
+//         {
+//             cout<<(char)j<<" ";
+//         }
+//         cout<<endl;
+//     }
+    
+//     return 0 ;
+// }
+ 
+
+
+
+// # include <iostream>
+// using namespace std;
+// int main(){
+//     int n = 4;
+//     int bag = 1;
+//     for (int i = bag; i <= n; i++)
+//     {
+//         for (int j = 0; j <= n; j++)
+//         {
+//             cout<<bag<<" ";
+//             bag++;
+//         }
+//         cout<<endl;
+//     }
+    
+//     return 0 ;
+// }
+
+
+
+
+
+
+
+
+// # include <iostream>
+// using namespace std;
+// int main(){
+//     int n = 4;
+//     char bag = 'A';
+//     for (int i = 0; i <= n; i++)
+//     {
+//         for (int j = 'A'; j <= n+64; j++)
+//         {
+//             cout<<bag<<" ";
+//             bag++;
+//         }
+//         cout<<endl;
+//     }
+    
+//     return 0 ;
+// }
+
+
+
+
+
 # include <iostream>
 using namespace std;
 int main(){
     int n = 4;
-    for (int i = 1; i <= 3; i++)
+    for (int i = 1; i <= n; i++)
     {
-        for (int j = 1; j <= 5; j++)
+        for (int j = 1 ; j <= i; j++)
         {
             cout<<"* ";
         }
@@ -478,22 +544,6 @@ int main(){
     
     return 0 ;
 }
- 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

@@ -687,44 +687,174 @@
 
 
 
-# include <iostream>
-using namespace std;
-int main(){
-    int n = 4;
-    for (int i = 0; i <= n; i++)
-    {
-        for (int j = n; j >= i; j--)
-        {
-            cout<<" ";
-        }
-        for (int k = 0; k <= n%2; k++)
-        {
-            if (i>0)
-            {
-                cout<<"* ";
-            }
+// # include <iostream>
+// using namespace std;
+// int main(){
+//     int n = 4;
+//     for (int i = 0; i <= n; i++)
+//     {
+//         for (int j = n; j >= i; j--)
+//         {
+//             cout<<" ";
+//         }
+//         for (int k = 0; k <= n%2; k++)
+//         {
+//             if (i>0)
+//             {
+//                 cout<<"* ";
+//             }
             
-        }
-        for (int h = 1; h <= 2*i-1; h++)
-        {
-            cout<<" ";
-        }
-        for (int j =0; j <= n%2; j++)
-        {
-            cout<<"* ";
-        }
+//         }
+//         for (int h = 1; h <= 2*i-1; h++)
+//         {
+//             cout<<" ";
+//         }
+//         for (int j =0; j <= n%2; j++)
+//         {
+//             cout<<"* ";
+//         }
+        
+//         cout<<endl;
+//     }
+
+//     for (int i = 1; i <= n; i++)
+//     {
+//         for (int j = 1; j <= i; j++)
+//         {
+//             cout<<" ";
+//         }
+//         for (int k = 0; k <= n%2; k++)
+//         {
+//             cout<<"* ";
+//         }
+//         for (int h = n-1; h >= 2*i-5; h--)
+//         {
+//             cout<<" ";
+//         }
+//         for (int l = 0; l <= n%2; l++)
+//         {
+//             cout<<"* ";
+//         }
         
         
         
-        cout<<endl;
-    }
+//         cout<<endl;
+//     }
     
-    return 0 ;
-}
+    
+//     return 0 ;
+// }
+
+
+
+// #include <iostream>
+// using namespace std;
+
+// int main() {
+//     int n = 4;
+
+//     // Upper half
+//     for (int i = 0; i <= n; i++) {
+//         for (int j = n; j > i; j--) {
+//             cout << " ";
+//         }
+
+//         if (i == 0) {
+//             cout << "*";
+//         }
+//         else {
+//             cout << "*";
+//             for (int h = 1; h <= 2 * i - 1; h++) {
+//                 cout << " ";
+//             }
+//             cout << "*";
+//         }
+
+//         cout << endl;
+//     }
+
+//     // Lower half
+//     for (int i = n - 1; i >= 0; i--) {
+//         for (int j = n; j > i; j--) {
+//             cout << " ";
+//         }
+
+//         if (i == 0) {
+//             cout << "*";
+//         }
+//         else {
+//             cout << "*";
+//             for (int h = 1; h <= 2 * i - 1; h++) {
+//                 cout << " ";
+//             }
+//             cout << "*";
+//         }
+
+//         cout << endl;
+//     }
+
+//     return 0;
+// }
 
 
 
 
+
+
+
+
+// # include <iostream>
+// using namespace std;
+// int main(){
+//     int n = 4;
+
+//     // Upper half
+//     for (int i = 0; i <= n; i++)
+//     {
+//         for (int j = n; j > i; j--)
+//         {
+//             cout<<" ";
+//         }
+//         if (i==0)
+//         {
+//             cout<<"*";
+//         }
+//         else{
+//             cout<<"*";
+//             for (int k = 0; k < 2*i-1; k++)
+//             {
+//                 cout<<" ";
+//             }
+//             cout<<"*";
+//         }
+//         cout<<endl;
+//     }
+
+//     for (int i = n-1; i > 0 ; i--)
+//     {
+//         for (int j = n; j > i ; j--)
+//         {
+//             cout<<" ";
+//         }
+//         if (i==0)
+//         {
+//             cout<<"*";
+//         }
+//         else{
+//             cout<<"*";
+//             for (int h = 1; h < 2*i-1; h++)
+//             {
+//                 cout<<" ";
+//             }
+            
+//             cout<<"*";
+//         }
+//         cout<<endl;
+//     }
+    
+    
+//     return 0 ;
+// }
 
 
 

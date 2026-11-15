@@ -974,6 +974,157 @@
 
 
 
+// # include <iostream>
+// using namespace std;
+// int main(){
+//     int n = 1233435;
+//     int reverse = 0;
+//     int digit = 0;
+//     for (int  i = 0; i <= n; i++)
+//     {
+//         while (n>0)
+//         {
+//             reverse = n%10;
+//             digit = digit*10+reverse;
+//             n /= 10;
+//         }
+//         cout<<digit<<endl;
+        
+//     }
+//     return 0 ;
+// }
+
+
+// # include <iostream>
+// using namespace std;
+// int main(){
+//     int n = 1232324;
+//     int digits = 0;
+//     int even = 0;
+//     int odd = 0;
+
+//     for (int i = 0; i <= n; i++)
+//     {
+//         while (n>0)
+//         {
+//             digits = n%10;
+//             if (digits%2 == 0)
+//             {
+//                 even++;
+//             }
+//             else{
+//                 odd++;
+//             }
+//             n /= 10;
+//         }
+//     }
+//     cout<<"Even digits = "<<even<<endl;
+//         cout<<"odd digits = "<<odd<<endl;
+    
+//     return 0 ;
+// }
+
+
+// # include <iostream>
+// using namespace std;
+// int main(){
+//     int n = 478934 , digit = 0 , addition = 0;
+//     for (int i = 0; i <= n; i++)
+//     {
+//         while (n>0)
+//         {
+//             digit = n%10;
+//             if(digit%2==0){
+//             addition += digit;
+//             }
+//             n /= 10;
+//         }
+        
+//     }
+//     cout<<addition<<endl;
+    
+//     return 0 ;
+// }
+
+
+
+// # include <iostream>
+// using namespace std;
+// int main(){
+//     int n = 121 , arm = 0 , org = 0;
+//     while (n>0)
+//     {
+//         int digit = 0;
+//         digit = n%10;
+//         arm = arm*10+digit*digit;
+//         org = org*10+digit;
+//         n /= 10;
+//     }
+//     if (org == arm)
+//     {
+//         cout<<"Armstrong Number"<<endl;
+//     }
+//     else
+//     {
+//         cout<<"Not Armstrong"<<endl;
+//     }
+//     return 0 ;
+// }
+
+
+
+
+// #include <iostream>
+// using namespace std;
+
+// int main() {
+//     int n = 153, org = n, sum = 0, digits = 0;
+
+//     int temp = n;
+
+//     while (temp > 0) {
+//         digits++;
+//         temp /= 10;
+//     }
+
+//     temp = n;
+
+//     while (temp > 0) {
+//         int digit = temp % 10;
+//         int power = 1;
+
+//         for (int i = 0; i < digits; i++) {
+//             power *= digit;
+//         }
+
+//         sum += power;
+//         temp /= 10;
+//     }
+
+//     if (sum == org)
+//         cout << "Armstrong Number";
+//     else
+//         cout << "Not Armstrong";
+
+//     return 0;
+// }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
